@@ -21,14 +21,20 @@ class Main extends PluginBase implements Listener{
        
     }
    
+    /**
+    * @param PlayerJoinEvent $event
+    *
+    * @priority HIGHEST
+    * @ignoreCancelled true
+    */
     function onJoin(PlayerJoinEvent $event) {
        
         $player = $event->getPlayer();
         $name = $player->getDisplayName();
        
-        if  ($player->isOp) {
+        if  ($player->isOp()) {
            
-            $this->getServer()->broadcastMessage(TextFormat::DARK_RED . "Hello! Guys," .$name." [ADMIN] joined the game!");
+            $this->getServer()->broadcastMessage(TextFormat::DARK_RED . "Hello! Guys, " .$name." [ADMIN] joined the game!");
            
         }
        
