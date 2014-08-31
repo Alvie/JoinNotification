@@ -1,5 +1,5 @@
-name: WorldKnows
-main: WorldKnows\Main
+name: JoinNotification
+main: JoinNotification\Main
 version: 1.3.0
 api: [1.1.0]
 author: HyperGamers
