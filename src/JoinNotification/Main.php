@@ -28,12 +28,12 @@ class Main extends PluginBase implements Listener{
        
         if  ($player->isOp) {
            
-            $this->getServer()->broadcastMessage( "Hello! Guys," .$name." [ADMIN] joined the game!");
+            $this->getServer()->broadcastMessage(TextFormat::DARK_RED . "Hello! Guys," .$name." [ADMIN] joined the game!");
            
         }
        
         else {
-                    $this->getServer()->broadcastMessage( "Hello! Guys, ".$name." [DEFAULT] joined the game!");
+                    $this->getServer()->broadcastMessage(TextFormat::DARK_GREEN . "Hello! Guys, ".$name." [DEFAULT] joined the game!");
 
        
     }
