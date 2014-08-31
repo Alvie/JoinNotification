@@ -1,6 +1,6 @@
 <?php
 
-namespace JoinMessage;
+namespace WorldKnows;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerJoinEvent;
