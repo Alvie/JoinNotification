@@ -16,9 +16,6 @@ class Main extends PluginBase implements Listener{
         $this->getLogger()->info("Everything loaded!");
     }
 
-
-    }
-
     /**
     * @param PlayerJoinEvent $event
     *
@@ -32,15 +29,13 @@ class Main extends PluginBase implements Listener{
 
         if ($player->isOp()) {
 
-            $this->getServer()->broadcastMessage("Hello! Guys,".$name." [ADMIN] joined the game!");
+            $event->setJoinMessage("Hello! Guys, $name [ADMIN] joined the game!");
         }
 
         else {
-                    $this->getServer()->broadcastMessage("Hello! Guys,".$name." [DEFAULT] joined the game!");
-
+            $event->setJoinMessage("Hello! Guys, $name [DEFAULT] joined the game!");
+        }
 
     }
 
 }
-
-?>
