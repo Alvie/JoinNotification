@@ -17,7 +17,7 @@ class Main extends PluginBase implements Listener{
     }
 
 
-    }
+    
 
     /**
     * @param PlayerJoinEvent $event
@@ -25,7 +25,7 @@ class Main extends PluginBase implements Listener{
     * @priority HIGHEST
     * @ignoreCancelled true
     */
-    function onJoin(PlayerJoinEvent $event) {
+    public function onJoin(PlayerJoinEvent $event) {
 
         $player = $event->getPlayer();
         $name = $player->getDisplayName();
@@ -42,5 +42,5 @@ class Main extends PluginBase implements Listener{
     }
 
 }
+}
 
-?>
