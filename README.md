@@ -3,15 +3,13 @@ JoinNotification
 
 A PocketMine-MP plugin that tells everyone who comes on when they come and if they are ADMIN.
 
-  - If player is OP it says (in RED): Hello! Guys, <username> [ADMIN] has joined the game!
-  - If player is not OP then it just says (in GREEN) Hello! Guys, <username> joined the game!
-
-
+  - If player is OP it says: Hello! Guys, "username" [ADMIN] has joined the game!
+  - If player is not OP then it just says: Hello! Guys, "username" [DEFAULT] joined the game!
 
 Version
 ----
 
-1.3.0
+1.1.0.0
 
 Installation
 --------------
