@@ -24,7 +24,7 @@ class Main extends PluginBase implements Listener{
         if ($player->isOp()) {
             $event->setJoinMessage("Hello! Guys, " . $player->getDisplayName() . " [ADMIN] joined the game!");
         }else {
-            $event->setJoinMessage("Hello! Guys, " . $player->getDisplayName() . " [DEFAULT] joined the game!");
+            $event->setJoinMessage("Hello! Guys, " . $player->getDisplayName() . " [GUEST] joined the game!");
         }
     }
 }
