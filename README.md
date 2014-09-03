@@ -9,7 +9,7 @@ A PocketMine-MP plugin that tells everyone who comes on when they come and if th
 Version
 ----
 
-1.1.0.0
+  1.2.0.0 B Banana
 
 Installation
 --------------
